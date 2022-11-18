@@ -8,6 +8,7 @@ class Player:
         self.level = 1
         self.on_hand = Item(0)
         self.strength = self.on_hand.strengthBonus
+        self.location = [0, 0]
 
     def change_weapon(self, slot):
         if slot - 1 > len(self.inventory):
@@ -29,3 +30,13 @@ class Player:
                 potion = self.inventory[slot - 1]
                 self.health = self.health + potion.healthGain
                 self.inventory.pop(slot - 1)
+
+    def move(self, direction):
+        if direction == "R":
+            self.location[0] -= 1
+        elif direction == "L":
+            self.location[0] -= 1
+        elif direction == "U":
+            self.location[1] -= 1
+        elif direction == "D":
+            self.location[1] -= 1
