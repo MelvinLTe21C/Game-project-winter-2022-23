@@ -38,6 +38,7 @@ def fire_trap(player):
     else:
         print("The fire burnt through your skin dealing", healthloss, "damage")
 
+#Alternativ, check stats, check inventory or choose direction to go
 def alternativ():
     print("What would you like to do now?")
     print("Check stats (1)")
@@ -53,7 +54,7 @@ def alternativ():
         print("")
         alternativ()
 
-
+#Options when opening inventory
 def open_inventory(items, onhand):
     print(items)
     print(onhand)
