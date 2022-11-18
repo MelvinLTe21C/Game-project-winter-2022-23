@@ -1,6 +1,6 @@
 #Welcome
 def welcome():
-    print("You were sent to a haunted dungeon on a mission to locate a hidden tressure")
+    print("You were sent to a mysterious dungeon on a mission to locate a hidden tressure")
     print("After a rather long search you finally find the tressure")
     print("As you proceed to start looting it you step on a pressureplate")
     print("A mysterious sound echoes through the dungeon, and the ground begins to tremble")
