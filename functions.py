@@ -38,5 +38,38 @@ def fire_trap(player):
     else:
         print("The fire burnt through your skin dealing", healthloss, "damage")
 
+def alternativ():
+    print("What would you like to do now?")
+    print("Check stats (1)")
+    print("Check inventory (2)")
+    print("Continue the journey (3)")
+    answer = input("I choose to: ")
+    if answer in ["1","2","3"]:
+        answer = int(answer)
+        return(answer)
+    else:
+        print("")
+        print("Please choose an valid option")
+        print("")
+        alternativ()
+
+
+def open_inventory(items, onhand):
+    print(items)
+    print(onhand)
+    print("")
+    print("What would you like to do in the inventory")
+    print("Equip weapond (1)")
+    print("Consume health potion (2)")
+    print("Close inventory (3)")
+    answer = input("I choose to: ")
+    if answer in ["1","2","3"]:
+        answer = int(answer)
+        return(answer)
+    else:
+        print("")
+        print("Please choose an valid option")
+        print("")
+        op_inventory(items, onhand)
 
 
