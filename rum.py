@@ -3,7 +3,7 @@ import random
 rooms = {}
 
 
-def main():
+def roomgeneration():
   Room(None, 0, 0)  # Create start room
   last_room = None
 
@@ -69,4 +69,4 @@ class Room:
 
 
 if __name__ == "__main__":
-  main()
+  roomgeneration()
