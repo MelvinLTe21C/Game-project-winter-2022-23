@@ -58,13 +58,20 @@ def roomgeneration():
 
     print("")
 
-class Room:
 
+class Room:
   def __init__(self, previous, x, y):
     self.previous = previous
     self.x = x
     self.y = y
     self.visited = False
+    room_rng = random.randint(1, 10)
+    if room_rng == 1:
+        self.contains = "trap"
+    if 2 <= room_rng <= 4:
+        self.contains = "chest"
+    if room_rng >= 5:
+        self.contains = "monster"
     rooms[(x, y)] = self  # Add to rooms dictionary
 
 
