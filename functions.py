@@ -39,25 +39,30 @@ def fire_trap(player):
         print("The fire burnt through your skin dealing", healthloss, "damage")
 
 #Alternativ, check stats, check inventory or choose direction to go
-def alternativ():
+def alternativ(player,mapdict):
     print("What would you like to do now?")
     print("Check stats (1)")
     print("Check inventory (2)")
     print("Continue the journey (3)")
     answer = input("I choose to: ")
     if answer in ["1","2","3"]:
-        answer = int(answer)
-        return(answer)
+        if answer == "1":
+            player.print_stats(mapdict)
+        elif answer == "2":
+            open_inventory()
+        elif answer == "3":
+            choose_direction()
+    
     else:
         print("")
         print("Please choose an valid option")
         print("")
         alternativ()
 
-#Options when opening inventory
+
 def open_inventory(items, onhand):
-    print(items)
-    print(onhand)
+    print("Inventory:", items)
+    print("You have a", onhand, "equipped")
     print("")
     print("What would you like to do in the inventory")
     print("Equip weapond (1)")
@@ -71,6 +76,5 @@ def open_inventory(items, onhand):
         print("")
         print("Please choose an valid option")
         print("")
-        op_inventory(items, onhand)
-
+        open_inventory(items, onhand)
 
