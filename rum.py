@@ -2,8 +2,8 @@ import random
 
 rooms = {}
 
-
 def roomgeneration():
+
   Room(None, 0, 0)  # Create start room
   last_room = None
 
@@ -44,11 +44,13 @@ def roomgeneration():
     path_list.append((printed_room.x, printed_room.y))
     printed_room = printed_room.previous
 
+  return rooms
+
+  """"
   # Print path
   for y in range(-10, 10):
     for x in range(-10, 10):
-      if x == 0 and y == 0:
-        print("0", end="")
+      print("0", end="")
       elif last_room.x == x and last_room.y == y:
         print("M", end="")
       elif (x, y) in path_list:
@@ -57,7 +59,7 @@ def roomgeneration():
         print(" ", end="")
 
     print("")
-
+"""
 
 class Room:
   def __init__(self, previous, x, y):
@@ -65,6 +67,7 @@ class Room:
     self.x = x
     self.y = y
     self.visited = False
+    # if [self.x, self.y] != [0, 0]:
     room_rng = random.randint(1, 10)
     if room_rng == 1:
         self.contains = "trap"
@@ -72,8 +75,14 @@ class Room:
         self.contains = "chest"
     if room_rng >= 5:
         self.contains = "monster"
+    if self.x == 0:
+      if self.y == 0:
+        self.contains = None
     rooms[(x, y)] = self  # Add to rooms dictionary
+    # else:
+      # self.contains = None
 
 
 if __name__ == "__main__":
-  roomgeneration()
+  roomsnshit = roomgeneration()
+  print(roomsnshit[0, 0].contains)
