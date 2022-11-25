@@ -1,6 +1,3 @@
-from utils.item import Item
-
-
 class Player:
     def __init__(self):
         self.health = 10
@@ -40,3 +37,35 @@ class Player:
             self.location[1] -= 1
         elif direction == "D":
             self.location[1] -= 1
+
+    def detect_doors(self, map_dict):
+        """""returns a list of booleans. Each bool stands for one direction,
+         in the following direction: Left, Up, Right, Down"""
+        return_list = []
+        if [self.location[0]-1, self.location[1]] in map_dict:
+            return_list.append(True)
+        else:
+            return_list.append(False)
+        if [self.location[0], self.location[1]-1] in map_dict:
+            return_list.append(True)
+        else:
+            return_list.append(False)
+
+        if [self.location[0]+1, self.location[1]] in map_dict:
+            return_list.append(True)
+        else:
+            return_list.append(False)
+
+        if [self.location[0], self.location[1]+1] in map_dict:
+            return_list.append(True)
+        else:
+            return_list.append(False)
+
+    def print_stats(self, map_dict):
+        room_counter = 0
+        for item in map_dict:
+            if item.visited:
+                room_counter += 1
+        return_list = (["Your level is " + str(self.level), "Your health is " + str(self.health),
+                       "Your strenght is " + str(self.strength), "You have explored " + str(room_counter) + "rooms"])
+        return return_list
