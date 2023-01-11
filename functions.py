@@ -78,3 +78,34 @@ def open_inventory(items, onhand):
         print("")
         open_inventory(items, onhand)
 
+def combat(player):
+    player_hp = 100
+    monster_hp = 100
+    
+    while player_hp > 0 or monster_hp > 0:
+        playerdmg = max(0,random.range(player.strenth -5, player.strenth + 5))
+        monster_hp -= playerdmg
+        return "You hit the monster for",playerdmg
+        
+        monsterdmg = max(0,random.range(5,10*player.lv*(1/2))
+        player_hp -= monsterdmg
+        return "You lost", monsterdmg,"health from the monsters attack"
+                         
+    if monster_hp < 1:
+        return "You won the battle and leveled upp"
+        return "You are now lv", player.lv
+                         
+    if player_hp < 1:
+        return "You lost the battle"
+        if monster_hp > 75:
+            player.health -= 4
+        elif monster_hp > 50:
+            player.health -= 3
+        elif monster_hp > 25:
+            player.health -= 2
+        else:
+            player.health -= 1
+                 
+                 
+        
+                         
