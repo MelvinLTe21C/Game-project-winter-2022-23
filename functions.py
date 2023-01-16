@@ -2,22 +2,22 @@ import random
 from utils.item import Item
 
 def welcome():
-    print("You were sent to a mysterious dungeon on a mission to locate a hidden tressure          ")
-    print("After a rather long search you finally find the tressure          ")
-    print("As you proceed to start looting it you step on a pressureplate          ")
-    print("A mysterious sound echoes through the dungeon, and the ground begins to tremble          ")
-    print("You run out of the room just to realize you are lost          ")
-    print("Now you need to find a way out before it is too late...          ")
-
+    return_list = ["You wake up in a mysterious dungeon          ", 
+                   "As you look around, you spot different pathways          ", 
+                   "Somewhere there must be an exit          ", 
+                   "You must find it before it's too late          "]
+    return return_list
 
 # All traps
 def snake_trap(player):
-    return_list = ["You hear hissing from the wall as poisonous snakes meander through",
+    return_list = ["You hear hissing from the wall          ", 
+                   "poisonous snakes meander through reaching for your soul          ",
                    "You’ve got caught in a [SNAKE TRAP]          "]
     healthloss = random.randint(1, 2)
     player.health = player.health - healthloss
     if player.health > 0:
-        return_list.append("You managed to escape the trap but lost " + str(healthloss) + " health points during the action          ")
+        return_list.append("You managed to escape the trap          ",
+                           "but lost " + str(healthloss) + " health points during the action          ")
     else:
         return_list.append("The snakes overwhelmed you.          ")
 
@@ -25,15 +25,15 @@ def snake_trap(player):
 
 
 def spike_trap(player):
-    return_list = ["You hear the ground tumbling beneath you.          ", "Sharp spears appear through the ground.          ",
+    return_list = ["You hear the ground tumbling beneath you          ", "Sharp spears appear through the ground          ",
                    "You’ve got caught in a [SPIKE TRAP]          "]
     healthloss = random.randint(1, 2)
     player.health = player.health - healthloss
     if player.health > 0:
-        return_list.append("You managed to escape the trap.           ")
+        return_list.append("You managed to escape the trap           ")
         return_list.append("You lost" + str(healthloss) + " health points during the action          ")
     else:
-        return_list.append("The spikes pierced through your body, killing you          ")
+        return_list.append("The spikes pierced through your body killing you          ")
 
     return return_list
 
@@ -43,9 +43,10 @@ def fire_trap(player):
     healthloss = random.randint(1, 2)
     player.health = player.health - healthloss
     if player.health > 0:
-        return_list.append("You managed to escape the trap but lost " + str(healthloss) + " health points during the action          ")
+        return_list.append("You managed to escape the trap          ", 
+                           "You lost " + str(healthloss) + " health points during the action          ")
     else:
-        return_list.append("The fire burnt through your skin dealing " + str(healthloss) + " damage          ")
+        return_list.append("The fire burnt through your skin killing you          ")
 
     return return_list
 
