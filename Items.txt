@@ -1,106 +1,108 @@
 "Steel Dagger",1,Basic
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Tiny Health Potion”,2hp,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Talisman Of Darkness”,2,Common
-“Cursed Talisman Of Darkness”,-1,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Steel Short-Sword”,2,Common
-“Cursed Steel Short-Sword”,-1,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Ring Of Power”,2,Common
-“Cursed Ring Of Power”,-1,Common
-“Small Health Potion”,4hp,Uncommon
-“Small Health Potion”,4hp,Uncommon
-“Small Health Potion”,4hp,Uncommon
-“Small Health Potion”,4hp,Uncommon
-“Small Health Potion”,4hp,Uncommon
-“Small Health Potion”,4hp,Uncommon
-“Small Health Potion”,4hp,Uncommon
-“Empowered Talisman Of Darkness”,4,Uncommon
-“Empowered Talisman Of Darkness”,4,Uncommon
-“Empowered Talisman Of Darkness”,4,Uncommon
-“Empowered Talisman Of Darkness”,4,Uncommon
-“Empowered Talisman Of Darkness”,4,Uncommon
-“Empowered Talisman Of Darkness”,4,Uncommon
-“Cursed Empowered Talisman Of Darkness”,-2,Uncommon
-“Great Ring Of Power”,4,Uncommon
-“Great Ring Of Power”,4,Uncommon
-“Great Ring Of Power”,4,Uncommon
-“Great Ring Of Power”,4,Uncommon
-“Great Ring Of Power”,4,Uncommon
-“Great Ring Of Power”,4,Uncommon
-“Cursed Great Ring Of Power”,-2,Uncommon
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Tiny HP Potion”,2hp,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,2,Common
+“Shaddow Talisman”,1,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,2,Common
+“Steel Sword”,1,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,2,Common
+“Power Ring”,1,Common
+“Small HP Potion”,4hp,Uncommon
+“Small HP Potion”,4hp,Uncommon
+“Small HP Potion”,4hp,Uncommon
+“Small HP Potion”,4hp,Uncommon
+“Small HP Potion”,4hp,Uncommon
+“Small HP Potion”,4hp,Uncommon
+“Small HP Potion”,4hp,Uncommon
+“Shaddow Talisman”,4,Uncommon
+“Shaddow Talisman”,4,Uncommon
+“Shaddow Talisman”,4,Uncommon
+“Shaddow Talisman”,4,Uncommon
+“Shaddow Talisman”,4,Uncommon
+“Shaddow Talisman”,4,Uncommon
+“Shaddow Talisman”,2,Uncommon
+“Great Power Ring”,4,Uncommon
+“Great Power Ring”,4,Uncommon
+“Great Power Ring”,4,Uncommon
+“Great Power Ring”,4,Uncommon
+“Great Power Ring”,4,Uncommon
+“Great Power Ring”,4,Uncommon
+“Great Power Ring”,2,Uncommon
 “Silver Dagger”,4,Uncommon
 “Silver Dagger”,4,Uncommon
 “Silver Dagger”,4,Uncommon
 “Silver Dagger”,4,Uncommon
 “Silver Dagger”,4,Uncommon
 “Silver Dagger”,4,Uncommon
-“Cursed Silver Dagger”,-2,Uncommon
-“Great Health Potion”,6hp,Rare
-“Great Health Potion”,6hp,Rare
-“Great Health Potion”,6hp,Rare
-“Great Health Potion”,6hp,Rare
-“Great Health Potion”,6hp,Rare
-“Ring Of Light”,6,Rare
-“Ring Of Light”,6,Rare
-“Ring Of Light”,6,Rare
-“Ring Of Light”,6,Rare
-“CursedRing Of Light”,-3,Rare
-“Talisman Of Strenght”,6,Rare
-“Talisman Of Strenght”,6,Rare
-“Talisman Of Strenght”,6,Rare
-“Talisman Of Strenght”,6,Rare
-“Cursed Talisman Of Strenght”,-3,Rare
+“Silver Dagger”,2,Uncommon
+“Great HP Potion”,6hp,Rare
+“Great HP Potion”,6hp,Rare
+“Great HP Potion”,6hp,Rare
+“Great HP Potion”,6hp,Rare
+“Great HP Potion”,6hp,Rare
+“Ring Of Hope”,6,Rare
+“Ring Of Hope”,6,Rare
+“Ring Of Hope”,6,Rare
+“Ring Of Hope”,6,Rare
+“CursedRing Of Hope”,3,Rare
+“Strength Talisman”,6,Rare
+“Strength Talisman”,6,Rare
+“Strength Talisman”,6,Rare
+“Strength Talisman”,6,Rare
+“Strength Talisman”,3,Rare
 “Silver Sword”,6,Rare
 “Silver Sword”,6,Rare
 “Silver Sword”,6,Rare
 “Silver Sword”,6,Rare
-“Cursed Silver Sword”,-3,Rare
-“Great Health Potion”,8hp,Epic
-“Great Health Potion”,8hp,Epic
-“Great Health Potion”,8hp,Epic
-“Empowered Ring Of Light”,8,Epic
-“Empowered Ring Of Light”,8,Epic
-“Cursed Empowered Ring Of Light”,-4,Epic
-“Great Talisman Of Strenght”,8,Epic
-“Great Talisman Of Strenght”,8,Epic
-“Cursed Great Talisman Of Strenght”,-4,Epic
+“Silver Sword”,3,Rare
+“Great HP Potion”,8hp,Epic
+“Great HP Potion”,8hp,Epic
+“Great HP Potion”,8hp,Epic
+“Ring Of Hope”,8,Epic
+“Ring Of Hope”,8,Epic
+“Ring Of Hope”,4,Epic
+“Great Strength Talisman”,8,Epic
+“Great Strength Talisman”,8,Epic
+“Great Strength Talisman”,4,Epic
 “Gold Dagger”,8,Epic
 “Gold Dagger”,8,Epic
-“Cursed Gold Dagger”,-4,Epic
-“Amazing Health Potion”,12hp,Legendary
+“Gold Dagger”,4,Epic
+“Amazing HP Potion”,12hp,Legendary
 “Blade Of The Fallen King”,12,Legendary
 “Great Mage’s Talisman”,12,Legendary  
 “Ring Of Gods”,12,Legendary
 "Paulines Cykel", 100, Godlike
+
+
