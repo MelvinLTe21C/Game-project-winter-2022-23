@@ -1,4 +1,4 @@
-"Steel Dagger",5,Basic
+"Steel Dagger",1,Basic
 “Tiny Health Potion”,2hp,Common
 “Tiny Health Potion”,2hp,Common
 “Tiny Health Potion”,2hp,Common
