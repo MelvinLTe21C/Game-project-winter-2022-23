@@ -76,7 +76,7 @@
 “Ring Of Hope”,6,Rare
 “Ring Of Hope”,6,Rare
 “Ring Of Hope”,6,Rare
-“CursedRing Of Hope”,3,Rare
+“Ring Of Hope”,3,Rare
 “Strength Talisman”,6,Rare
 “Strength Talisman”,6,Rare
 “Strength Talisman”,6,Rare
