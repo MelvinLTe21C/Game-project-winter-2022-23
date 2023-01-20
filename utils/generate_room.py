@@ -82,8 +82,4 @@ class Room:
     rooms[(x, y)] = self  # Add to rooms dictionary
     # else:
       # self.contains = None
-
-
-if __name__ == "__main__":
-  roomsnshit = roomgeneration()
-  print(roomsnshit[0, 0].contains)
+   
