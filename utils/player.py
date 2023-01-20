@@ -7,8 +7,11 @@ class Player:
     def __init__(self):
         self.max_health = 50
         self.health = self.max_health
+        # start with one tiny health potion (item code 2) in inventory
         self.inventory = [Item(2)]
+        # start at level 1
         self.level = 1
+        # start with a steel dagger (item code 1) on hand
         self.on_hand = Item(1)
         # prevent issues being caused by having thrown weapon, and thus self.on_hand being None
         if self.on_hand is not None:
