@@ -228,7 +228,7 @@ class Player:
                 return_list.append("The strike lands cleanly, dealing " + str(damage_dealt) + " damage.          ")
             # if the damage was considerably lower than strength value, add a message about a loose hit
             elif damage_dealt < self.strength * 0.8:
-                return_list.append("The attack only barely hits the monster, dealing " + str(damage_dealt) + "damage. "
+                return_list.append("The attack only barely hits the monster, dealing " + str(damage_dealt) + " damage. "
                                                                                                              "        "
                                                                                                              " ")
             # if the attack was neither high or low compared to player.strength, add a message about a normal attack
