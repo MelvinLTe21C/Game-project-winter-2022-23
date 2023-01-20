@@ -15,9 +15,14 @@ class Item:
 
         # weapons and potions have different types, as well as weapons having a strength_bonus, while potions have
         # a healthGain
+        
+        # potions second value in the text file end with hp if the item is a potion, meaning that the code below 
+        # activates if the item is a potion
         if item_info[1].endswith("hp"):
+            # if it is, set its type and healthGain
             self.type = "potion"
             self.healthGain = int(item_info[1].replace("hp", ""))
         else:
+            # if it is not, set its type and strengthBonus
             self.type = "weapon"
             self.strengthBonus = int(item_info[1])
