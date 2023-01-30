@@ -1,5 +1,4 @@
 import random
-
 from utils.item import Item
 
 
@@ -7,11 +6,8 @@ class Player:
     def __init__(self):
         self.max_health = 50
         self.health = self.max_health
-        # start with one tiny health potion (item code 2) in inventory
         self.inventory = [Item(2)]
-        # start at level 1
         self.level = 1
-        # start with a steel dagger (item code 1) on hand
         self.on_hand = Item(1)
         # prevent issues being caused by having thrown weapon, and thus self.on_hand being None
         if self.on_hand is not None:
@@ -88,6 +84,10 @@ class Player:
                 self.on_hand = new_weapon
                 # remove the item chosen from inventory
                 self.inventory.pop(slot - 1)
+        else:
+            new_weapon = self.inventory[slot - 1]
+            self.on_hand = new_weapon
+            self.inventory.pop(slot - 1)
 
     def consume(self, slot):
         # only works if the item in question is a potion, so check if the item chosen is a potion
@@ -238,7 +238,7 @@ class Player:
 
         # if you have no weapon on hand, add a message about hitting the monster with your hands
         else:
-            return_list.append("You hit the monster with your hands, dealing " + str(damage_dealt) + "damage.         "
+            return_list.append("You hit the monster with your hands, dealing " + str(damage_dealt) + " damage.         "
                                                                                                      " ")
 
         # return the list of messages to be shown
